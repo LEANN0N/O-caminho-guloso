@@ -9,7 +9,7 @@ Deve-se ressaltar que o código não fará a análise para cima pois, tem como c
  
 ## Arquivos
 
-* ```main.cpp```: Função principal do código
+* ```main.cpp```: Arquivo e função principal do código
 * ```Matriz.hpp```: Criação das funções utilizadas;
 * ```Matriz.cpp```: Implementação das funções descritas no arquivo hpp;
 * ```input.data```: Matrizes a serem utilizadas;
