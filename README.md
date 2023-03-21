@@ -17,7 +17,9 @@ Deve-se ressaltar que o código não fará a análise para cima pois, tem como c
 
 ## Funções
 
-
+* ```int **criarMatriz(int **matriz, int tam)```: Responsável pela criação e retorno de uma matriz criada através de alocação dinâmica. Passados como parâmetro temos a matriz a ser criada e seu tamanho.
+* ```int **limparMatriz(int **matriz, int tam)```: Realiza a limpeza da matrize após a criação de uma alocada dinâmicamente. Passados como parâmetro temos a matriz que será feito a liberação de memória alocada e seu tamanho.
+* ```int **int percorrerMatriz(int **matriz, int tam)```: 
 
 ## Exemplos de compilação
 
