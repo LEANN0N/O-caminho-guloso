@@ -21,7 +21,11 @@ int main()
   fscanf(arq, "%d", &tam);
   fscanf(arq, "%d", &tam);
   
-  matriz = m.criarMatriz(matriz, tam);
+  matriz = new int *[tam];
+  for(int j = 0; j < tam; j++)
+  {
+    matriz[j] = new int[tam];
+  }
   
   while (!feof(arq))
   {   
@@ -42,8 +46,6 @@ int main()
       l = 0;
       c = 0;
       valorCaminhada += m.percorrerMatriz(matriz, tam);
-      matriz = m.limparMatriz(matriz, tam);
-      matriz = m.criarMatriz(matriz, tam);
     }
   }
   matriz = m.limparMatriz(matriz, tam);
