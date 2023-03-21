@@ -144,12 +144,12 @@ int Matriz::percorrerMatriz(int **matriz, int tam)
     }
   }
   matriz[tam-1][tam-1] = -1;
-  cout << endl << "-----CAMINHO PERCORRIDO NA MATRIZ MARCADO COM -1-----" << endl;
+  cout << endl << "-----CAMINHO PERCORRIDO NA MATRIZ MARCADO COM -1-----" << endl << endl;
   for(int j = 0; j < tam; j++)
   {
     for(int k = 0; k < tam; k++)
     {
-      cout << " " <<  matriz[j][k];
+      cout << matriz[j][k] << "\t";
     }
     cout << endl;
   }
