@@ -26,7 +26,7 @@ Deve-se ressaltar que o código não fará a análise para cima pois, tem como c
 
 ## Exemplos de compilação
 
-Na imagem a seguir temos um exemplo de 3 matrizes de tamanho 4x4.</p>
+Na imagem a seguir temos um exemplo de 3 matrizes de tamanho 4x4, obtidas através do arquivo input.data.</p>
 
 ![Matrizes](https://user-images.githubusercontent.com/118322766/226504303-08c27d66-7878-48c5-8f57-3916edfe446f.jpeg)
 
