@@ -1,29 +1,29 @@
 # Trabalho "O caminho guloso": Implementação em C++
 
-<div style="display: inline-block;">
-<img align="center" height="20px" width="90px" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/> 
-<img align="center" height="20px" width="60px" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/> 
-<img align="center" height="20px" width="80px" src="https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg"/> 
-<a href="https://github.com/mpiress/midpy/issues">
-<img align="center" height="20px" width="90px" src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"/>
-<img align="center" height="20px" width="80px" src="https://badgen.net/badge/license/MIT/green"/>
-</a> 
-</div>
+O programa receberá através de um arquivo, um número K de matrizes de tamanho NxN, onde ele percorrera as matrizes optando sempre andar para a casa com o maior número.
 
-<p> </p>
-<p> </p>
+## Objetivo
 
+O sistema fará a leitura dessas matrizes e logo, começará a partir do ponto [0,0], percorrer as matrizes de forma a sempre escolher o maior número até 1 casa de distância. Ao caminhar pelas matrizes, o programa pode escolher entre 5 direções, sendo elas:  esquerda, diagonal esquerda baixo, baixo, diagonal direita baixo e direita.</p>
+Deve-se ressaltar que o código não fará a análise para cima pois, tem como critérios enquanto está andando pelas matrizes, nunca andar para a linha de cima e também, nunca deverá voltar para uma posição que foi percorrida anteriormente.
+ 
+## Arquivos
 
-<p align="justify">
-Pequeno programa para a geração de números aleatórios para o trabalho da disciplina de Estrutura de Dados I. A partir desse, o aluno pode produzir matrizes quadradas de qualquer tamanho. A configuração do tamanho da matriz é feita no arquivo mat.h, redefinindo as variáveis de ambiente. Além disso, a quantidade de matrizes a serem produzidas deve ser estipulada no arquivo main.c através da variável <i>number_of_matrix</i>.
-</p>
+* ```main.cpp```: Função principal do código
+* ```Matriz.hpp```: Criação das funções utilizadas;
+* ```Matriz.cpp```: Implementação das funções descritas no arquivo hpp;
+* ```input.data```: Matrizes a serem utilizadas;
+* ```Makefile```: Automatiza processos de compilação;
 
-<p align="justify">
-<span color="red">Observação:</span> Note no código que o arquivo input.data está sendo direcionado para uma pasta chamada dataset. Ao clonar o repositório ou baixar o zip essa pasta pode não ser contemplada como parte da hierarquia da aplicação, então, não esqueça de criá-la antes de iniciar a execução. Caso contrário, um erro de arquivo não encontrado surgirá como retorno.
-</p>
+## Funções
 
 
-# Compilação e Execução
+
+## Exemplos de compilação
+
+
+
+## Compilação e Execução
 
 Esse código possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
 
