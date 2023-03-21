@@ -24,6 +24,8 @@ Deve-se ressaltar que o código não fará a análise para cima pois, tem como c
 
 ## Exemplos de compilação
 
+![Matrizes](https://user-images.githubusercontent.com/118322766/226504303-08c27d66-7878-48c5-8f57-3916edfe446f.jpeg)
+![CaminhoMatrizes](https://user-images.githubusercontent.com/118322766/226504371-7bec61ef-0753-428b-892d-fccd22eb735c.jpeg)
 
 
 ## Compilação e Execução
