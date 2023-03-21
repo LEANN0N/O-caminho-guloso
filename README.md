@@ -24,9 +24,14 @@ Deve-se ressaltar que o código não fará a análise para cima pois, tem como c
 
 ## Exemplos de compilação
 
-![Matrizes](https://user-images.githubusercontent.com/118322766/226504303-08c27d66-7878-48c5-8f57-3916edfe446f.jpeg)
-![CaminhoMatrizes](https://user-images.githubusercontent.com/118322766/226504371-7bec61ef-0753-428b-892d-fccd22eb735c.jpeg)
-
+Na imagem a seguir temos um exemplo de 3 matrizes de tamanho 4x4.</p>
+![Matrizes](https://user-images.githubusercontent.com/118322766/226504303-08c27d66-7878-48c5-8f57-3916edfe446f.jpeg)</p>
+Após obter as matrizes que serão ultilizadas, o programa mostrará o caminho que foi efetuado, e logo em seguida, será mostrado a soma total do caminho feito.
+![CaminhoMatrizes](https://user-images.githubusercontent.com/118322766/226504371-7bec61ef-0753-428b-892d-fccd22eb735c.jpeg)</p>
+- O caminho é demonstrado através do número -1, que é colocado por onde o código percorreu.
+- Quando se chega na ultima linha o codigo andará apenas para a direita, priorizando chegar na última coluna.
+- Cada vez que é mostrado o caminho efetuado, logo em seguida, é mostrado também a soma obtida neste caminho.
+- No fim do código, é mostrado o valor total, que é a soma do caminho feito em cada matriz.
 
 ## Compilação e Execução
 
