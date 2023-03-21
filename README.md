@@ -5,6 +5,9 @@ O programa receberá através de um arquivo, um número K de matrizes de tamanho
 ## Objetivo
 
 O sistema fará a leitura dessas matrizes e logo, começará a partir do ponto [0,0], percorrer as matrizes de forma a sempre escolher o maior número até 1 casa de distância. Ao caminhar pelas matrizes, o programa pode escolher entre 5 direções, sendo elas:  esquerda, diagonal esquerda baixo, baixo, diagonal direita baixo e direita.</p>
+
+![direções](https://user-images.githubusercontent.com/118322766/226509759-814ee775-88b7-447d-bc93-4773514d06e2.jpeg)
+
 Deve-se ressaltar que o código não fará a análise para cima pois, tem como critérios enquanto está andando pelas matrizes, nunca andar para a linha de cima e também, nunca deverá voltar para uma posição que foi percorrida anteriormente.
  
 ## Arquivos
@@ -25,9 +28,13 @@ Deve-se ressaltar que o código não fará a análise para cima pois, tem como c
 ## Exemplos de compilação
 
 Na imagem a seguir temos um exemplo de 3 matrizes de tamanho 4x4.</p>
-![Matrizes](https://user-images.githubusercontent.com/118322766/226504303-08c27d66-7878-48c5-8f57-3916edfe446f.jpeg)</p>
+
+![Matrizes](https://user-images.githubusercontent.com/118322766/226504303-08c27d66-7878-48c5-8f57-3916edfe446f.jpeg)
+
 Após obter as matrizes que serão ultilizadas, o programa mostrará o caminho que foi efetuado, e logo em seguida, será mostrado a soma total do caminho feito. Como mostrado no exemplo abaixo:
-![CaminhoMatrizes](https://user-images.githubusercontent.com/118322766/226504371-7bec61ef-0753-428b-892d-fccd22eb735c.jpeg)</p>
+
+![CaminhoMatrizes](https://user-images.githubusercontent.com/118322766/226504371-7bec61ef-0753-428b-892d-fccd22eb735c.jpeg)
+
 - O caminho é demonstrado através do número -1, que é colocado por onde o código percorreu.
 - Quando se chega na ultima linha o codigo andará apenas para a direita, priorizando chegar na última coluna.
 - Cada vez que é mostrado o caminho efetuado, logo em seguida, é mostrado também a soma obtida neste caminho.
