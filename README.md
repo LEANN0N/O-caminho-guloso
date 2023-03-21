@@ -20,7 +20,6 @@ Deve-se ressaltar que o código não fará a análise para cima pois, tem como c
 
 ## Funções
 
-* ```int **criarMatriz(int **matriz, int tam)```: Responsável pela criação e retorno de uma matriz criada através de alocação dinâmica. Passados como parâmetro temos a matriz a ser criada e seu tamanho.
 * ```int **limparMatriz(int **matriz, int tam)```: Realiza a limpeza da matrize após a criação de uma alocada dinâmicamente. Passados como parâmetro temos a matriz que será feito a liberação de memória alocada e seu tamanho.
 * ```void mostrarCaminho(int **matriz, int tam)```: Mostra ao usuário o caminho percorrido, tendo o número -1 por onde foi passado. Passados como parâmetro temos a matriz que será lida e seu tamanho.
 * ```int **int percorrerMatriz(int **matriz, int tam)```: Realiza todas as comparações nas 5 possíveis direções, observando sempre se a posição a ser analisado está dentro dos limites da matriz. Nesta função foi usados vários comandos if para comparação, e foram usadas 2 variáveis auxiliares para salvar a posição da linha e da coluna, até o momento que a caminhada é feita. Passados como parâmetro temos a matriz que será percorrida e seu tamanho.
