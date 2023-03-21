@@ -17,17 +17,6 @@ int **Matriz::getMatriz()
   return this->matriz;
 }
 
-int **Matriz::criarMatriz(int **matriz, int tam)
-{
-  matriz = new int *[tam];
-  for(int j = 0; j < tam; j++)
-  {
-    matriz[j] = new int[tam];
-  }
-  setMatriz(matriz);
-  return matriz;
-}
-
 int **Matriz::limparMatriz(int **matriz, int tam)
 {
   for(int j = 0; j < tam; j++)
