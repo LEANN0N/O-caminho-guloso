@@ -39,6 +39,19 @@ int **Matriz::limparMatriz(int **matriz, int tam)
   return matriz;
 }
 
+void Matriz::mostrarCaminho(int **matriz, int tam)
+{
+  cout << endl << "-----CAMINHO PERCORRIDO NA MATRIZ MARCADO COM -1-----" << endl << endl;
+  for(int j = 0; j < tam; j++)
+  {
+    for(int k = 0; k < tam; k++)
+    {
+      cout << matriz[j][k] << "\t";
+    }
+    cout << endl;
+  }
+}
+
 int Matriz::percorrerMatriz(int **matriz, int tam)
 {
   int valorCaminhada = matriz[0][0];
@@ -144,15 +157,7 @@ int Matriz::percorrerMatriz(int **matriz, int tam)
     }
   }
   matriz[tam-1][tam-1] = -1;
-  cout << endl << "-----CAMINHO PERCORRIDO NA MATRIZ MARCADO COM -1-----" << endl << endl;
-  for(int j = 0; j < tam; j++)
-  {
-    for(int k = 0; k < tam; k++)
-    {
-      cout << matriz[j][k] << "\t";
-    }
-    cout << endl;
-  }
+  mostrarCaminho(matriz, tam);
   cout << endl << "Soma obtida neste caminho: " << valorCaminhada << endl;
   return valorCaminhada;
 }
