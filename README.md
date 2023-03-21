@@ -8,7 +8,7 @@ O sistema fará a leitura dessas matrizes e logo, começará a partir do ponto [
 
 ![direções](https://user-images.githubusercontent.com/118322766/226509759-814ee775-88b7-447d-bc93-4773514d06e2.jpeg)
 
-Deve-se ressaltar que o código não fará a análise para cima pois, tem como critérios enquanto está andando pelas matrizes, nunca andar para a linha de cima e também, nunca deverá voltar para uma posição que foi percorrida anteriormente.
+Deve-se ressaltar que o código não fará a análise para cima pois, tem como critérios nunca andar para a linha de cima e também, nunca deverá voltar para uma posição que foi percorrida anteriormente.
  
 ## Arquivos
 
