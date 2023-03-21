@@ -11,7 +11,7 @@ int main()
   int **matriz;
   Matriz m;
   
-  arq = fopen("../O-caminho-guloso-main/dataset/input.data", "rt");
+  arq = fopen("../dataset/input.data", "rt");
   if (arq == NULL)
   {
     cout << "Problemas na CRIACAO do arquivo\n";
